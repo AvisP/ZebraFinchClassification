@@ -8,4 +8,17 @@ File List and description
 
 4) Understand_SVM : Creates a 2 dimensional non-linearly separable dataset, trains an SVM model with radial basis function kernel and plots it to help understand and visualize how the algorithm operates. 
 
-5) Master_script_commandlist : A list of commands used in the execution of hctsa codes. 
+5) Master_script_commandlist : A list of commands commonly used in the execution of hctsa codes. 
+
+6) Dataset_Combination : Matlab script showing how the different datasets are combined and labelled. 
+
+7) Boosted_Trees_Matlab : Matlab Script showing how to format the feature values after hctsa execcution so that maltab classifier toolbox and commands can operate on it.
+
+8) Boosted_Trees_Matlab2 : Similar to the script `Boosted-Trees_Matlab`. Additionally performs dataset equalization and compares performance of Random Forest Classifier and Linear SVM. Calls function `plotConfMat` for Confucian matrix plot.
+
+
+Additional Functions
+
+1) TS_classify_label : Modified version of TS_classify_label function of hctsa to obtain the probability values associated with classifier prediction.
+2) plotConfMat : Cusotm matlab code found on matlab website for Confucian matrix plotting.
+3) 
