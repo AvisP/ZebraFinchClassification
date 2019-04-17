@@ -21,4 +21,5 @@ Additional Functions
 
 1) TS_classify_label : Modified version of TS_classify_label function of hctsa to obtain the probability values associated with classifier prediction.
 2) plotConfMat : Cusotm matlab code found on matlab website for Confucian matrix plotting.
-3) 
+3) redblue : Custom code found on matlab website taht generates a matrix of shades of red and blue.
+4) Feat_Directionality : Computes the difference between the directed and undirected feature values and their operation IDS
