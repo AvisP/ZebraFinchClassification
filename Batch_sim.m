@@ -13,8 +13,8 @@ cd('F:\data_for_avishek\Dir_Undir\done\o102p102');
 % cd('F:\data_for_avishek\Dir_Undir\done\o121p122');
 % cd('F:\data_for_avishek\Dir_Undir\done\o122p123');
 
-% dirf('*.wav','batch.txt');
-fileID = fopen('motifbatch.txt','r');
+dirf('*.wav','batch.txt');
+fileID = fopen('batch.txt','r');
 list = textscan(fileID,'%s \n');
 fclose(fileID);
 
@@ -35,6 +35,11 @@ for i=1:length(temp_list)
     end
 end
 labels = temp_list';
+
+% Save the files labels, keywords, timeSeriesData into a mat file eg.
+% 'o122p123.mat'
+
+save('o122p123.mat','labels','keywords','timeSeriesData');
 
 TS_init('o122p123.mat','INP_mops.txt','INP_ops.txt',0,'HCTSA_o122p123.mat');
 sample_runscript_matlab(1,1,'HCTSA_o122p123.mat');
