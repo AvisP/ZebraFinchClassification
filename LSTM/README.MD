@@ -3,4 +3,6 @@ Song_extract_Generic2.py - Script for reading all the song files in individual d
 
 Visualization_Generic2.py - Once the training is complete it takes the prediction scores for each segment and puts the segments together to show how the accuracy of the song performed. Example provided are
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Directed_Song_Visualization](
+https://github.com/AvisP/ZebraFinchClassification/tree/master/LSTM/blk12_dir1_new.png
+)
